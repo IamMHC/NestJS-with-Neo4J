@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/IamMHC/NestJS-with-Neo4J/compare/v1.0.0...v1.0.1) (2020-07-29)
+
+
+### Bug Fixes
+
+* **Packages:** dependencies sort ([59a6713](https://github.com/IamMHC/NestJS-with-Neo4J/commit/59a6713058203cabc653ce1fba5492e31ce801f0))
+
 # 1.0.0 (2020-07-29)
 
 
