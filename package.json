@@ -1,6 +1,6 @@
 {
   "name": "@iammhc/nestjs-neo4j",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Neo4j driver for Nest Framework.",
   "author": "Hashir CH",
   "license": "MIT",
