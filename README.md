@@ -5,9 +5,9 @@
 # Neo4j for NestJS
 
 [![codecov](https://codecov.io/gh/IamMHC/NestJS-with-Neo4J/branch/master/graph/badge.svg?token=JMF1QG0SOB)](https://codecov.io/gh/IamMHC/NestJS-with-Neo4J)
-![npm](https://img.shields.io/npm/v/@iammhc/NestJS-with-Neo4J?logo=npm)
-[![Actions Status](https://github.com/IamMHC/NestJS-with-Neo4J/workflows/build/badge.svg)](https://github.com/IamMHC/NestJS-with-Neo4J/actions)
-![GitHub](https://img.shields.io/github/license/iammhc/NestJS-with-Neo4J)
+![npm](https://img.shields.io/npm/v/@iammhc/nestjs-neo4j?logo=npm)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IamMHC/nestjs-with-neo4j/Release%20CI)
+![GitHub](https://img.shields.io/github/license/iammhc/nestjS-with-neo4j)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/iammhc/NestJS-with-Neo4J)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/iammhc/NestJS-with-Neo4J/neo4j-driver)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=IamMHC_NestJS-with-Neo4J&metric=alert_status)](https://sonarcloud.io/dashboard?id=IamMHC_NestJS-with-Neo4J)
