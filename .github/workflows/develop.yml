@@ -1,0 +1,35 @@
+name: Development CI
+on:
+  push:
+    branches:
+      - '*'
+      - '*/*'
+      - '!master'
+      - '!next'
+      - '!alpha'
+      - '!beta'
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  develop:
+    name: Development
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install dependencies
+        run: yarn
+      - name: build
+        run: yarn build
+      - name: Unit Tests
+        run: yarn test:cov
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Test Lint
+        run: yarn lint

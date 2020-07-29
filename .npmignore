@@ -1,0 +1,13 @@
+lib
+index.ts
+package-lock.json
+.eslintrc.js
+tsconfig.json
+tsconfig.build.json
+.prettierrc
+coverage
+tests
+.releaserc
+.github
+assets
+test-report.xml
