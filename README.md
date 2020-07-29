@@ -11,6 +11,7 @@
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/iammhc/NestJS-with-Neo4J)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/iammhc/NestJS-with-Neo4J/neo4j-driver)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=IamMHC_NestJS-with-Neo4J&metric=alert_status)](https://sonarcloud.io/dashboard?id=IamMHC_NestJS-with-Neo4J)
+
 Neo4j driver for [Nest](https://github.com/nestjs/nest) Framework.
 
 ## What's New ![GitHub release (latest by date)](https://img.shields.io/github/v/release/iammhc/NestJS-with-Neo4J?style=social)
